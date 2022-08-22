@@ -2,15 +2,29 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto&display=swap');
   body{
     font-family: 'Poppins', sans-serif;
-    background-color: #F3F1FF;
+    background-color:#F3F3FF ;
+}
+.main-container{
+   display: flex;
+    justify-content: center;
 }
     .container{
-        display: flex;
-        justify-content: space-between;
-       background-color:#FFFFFF ;
-       width: 7;
-       
+        /* display: flex;
+        
+        justify-content: space-between; */
+        background-color:#FFFFFF;
+        width: 1500px;
+        
     }
+    .spacebetween{
+        display: flex;
+        
+        justify-content: space-between;
+    }
+    /* main{
+        display: flex;
+        justify-content: center;
+    } */
     .htwotag{
         margin-left: 60px;
     }
@@ -37,20 +51,78 @@
      Section-two started
     -------------------------- */
     
-    /* .half-width{
-        width: 800px;
-    } */
-    .loream{
-        width: 50%;
-    }
+    
+    
     .htag{
         font-size: 40px;
         margin: 0;
 
     }
-    .pp{
-        width: 50%;
-    }
+    
     .flex-flex{
         display: flex;
+    }
+    .half{
+        margin-left: 60px;
+        
+    }
+    .half a{
+        text-decoration: none;
+        color: white;
+        background-color: #E02C6D;
+        padding:10px 25px;
+        border-radius: 30px;
+    }
+    .halfh{
+        margin-top: 70px;
+        font-size: 35px;
+       
+        width: 70%;
+    }
+    .pp{
+        width: 60%;
+    }
+    
+   .half-img{
+    margin-left: 60px;
+    margin-top: 50px;
+   }
+
+   /*-------------------
+   -------------------------
+    Horizontal area'
+    -------------------- */
+   hr{
+    
+    margin: 30px 0;
+    height: 1px;
+    border: none;
+    background: -webkit-gradient(linear, 0 0, 100% 0, from(transparent), to(transparent), color-stop(50%, lightgray));
+}
+
+   /*-------------------------
+         Brands sections
+   ------------------------ */
+
+   .brand{
+    display: flex;
+    justify-content: center;
+   }
+   .brand img{
+    margin: 32px;
+   }
+
+   
+/*-----------------------
+Popular Collections
+---------------------- */
+.camera h3{
+   font-weight:normal; 
+}
+.camera h2{
+    font-weight:normal; 
+}
+    .pop-coll{
+        display: flex;
+        justify-content: center;
     }
