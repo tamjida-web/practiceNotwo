@@ -3,15 +3,22 @@
   body{
     font-family: 'Poppins', sans-serif;
     background-color:#F3F3FF ;
+   
+   
 }
 .main-container{
    display: flex;
+ 
+   
+}
+header{
+    display: flex;
     justify-content: center;
 }
     .container{
-        /* display: flex;
+        /* display: flex; 
         
-        justify-content: space-between; */
+        justify-content: space-between;*/
         background-color:#FFFFFF;
         width: 1500px;
         
@@ -173,5 +180,41 @@ Popular Collections
         margin-left: 15px;
         color: #5E6366;
        
+    }
+
+    /*---------------------- Responsive ------------------ */
+
+    @media only screen and (max-width: 1025px){
+        .main-container{
+         
+            background-color: rgb(97, 73, 73);
+            grid-template-columns: repeat(1,1fr);
+
+        }
+        .container{
+            width: 100%;
+        }
+     
+       .half-img{
+            width: 30%;
+        }
+        /* .spacebetween{
+            
+        } */
+
+        .htwotag h2{
+            display: flex;
+            justify-content: center;
+        }
+        .flex-flex{
+            display: grid;
+           
+        }
+        .camera img{
+            width: 50%;
+        }
+    }
+     .brands, .cameras{
+        display: none;
     }
     
