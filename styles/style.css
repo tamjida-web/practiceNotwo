@@ -32,28 +32,43 @@ header{
         display: flex;
         justify-content: center;
     } */
+    .checkbtn{
+        font-size: 30px;
+        color: black;
+        float: right;                      
+        margin-bottom: 40px;
+        margin-right: 40px;
+        margin-left: 20px;
+        cursor: pointer;
+        display: none;
+    }
+    nav .fa-cart-plus{
+        font-size: 30px;
+    }
+    #check{
+        display: none;
+    }
     .htwotag{
         margin-left: 60px;
     }
     .anchor{
         margin-right: 60px;
+        margin-top: 25px;
     }
-    .anchor a{
+    nav  a{
         text-decoration: none;
         margin: 10px;
-        font-size: 18px;
         color: black;
         font-size: 18px; 
+        text-transform: uppercase;
     }
-    .fa-magnifying-glass{
+     .fa-magnifying-glass{
         font-size: 25px;
     }
     .fa-cart-plus{
         font-size: 25px;
-    }
-    .anchor{
-        margin-top: 25px;
-    }
+    } 
+   
     /*---------------------------
      Section-two started
     -------------------------- */
@@ -73,7 +88,7 @@ header{
         margin-left: 60px;
         
     }
-    .half a{
+    .anc a{
         text-decoration: none;
         color: white;
         background-color: #E02C6D;
@@ -86,6 +101,7 @@ header{
     }
     .pp{
         width: 60%;
+        font-size: 20px;
     }
     
    .half-img{
@@ -214,19 +230,28 @@ Popular Collections
         width: 100%;
       }
        .anc a{
-        display: inline;
-        width: 30%;
+        align-items: center;
         justify-content: center;
-        
-       
+       margin-left: 300px;
+       border-width: 40px;
+       position: absolute;
       } 
+
+      /* .fa-arrow-right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      } */
+
         .htwotag h2{
             display: flex;
             justify-content: center;
         }
         .flex-flex{
-            display: grid;  
+            margin-left: 90px; 
+            flex-direction:column-reverse;
         }
+        
         .camera img{
             width: 50%;
         }
@@ -255,6 +280,13 @@ Popular Collections
         }
         .cam-info{
             margin-left: 55px;
+        }
+
+        .checkbtn{
+            display: block;
+        }
+        .anchor{
+            display: none;
         }
     }
     /* .cameras{
